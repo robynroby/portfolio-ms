@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import MobileNav from './MobileNav'
 import Nav from './Nav'
 import { Button } from './ui/button'
 
@@ -8,7 +9,7 @@ const Header = () => {
             <div className="container mx-auto flex justify-between items-center">
                 <Link href="/">
                     <h1 className="text-4xl font-semibold">
-                        Robinson Mwaura<span className="text-accent">.</span>
+                        Mwaura<span className="text-accent">.</span>
                     </h1>
                 </Link>
                 {/* <p className="text-lg mt-2">Frontend Developer</p> */}
@@ -23,7 +24,7 @@ const Header = () => {
 
                 {/* mobile nav */}
                 <div className="xl:hidden">
-                    mobile nav
+                    <MobileNav />
                 </div>
             </div>
         </header>
