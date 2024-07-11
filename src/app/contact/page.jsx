@@ -11,17 +11,17 @@ const info = [
     {
         icon: <FaPhoneAlt />,
         title: 'Phone',
-        description: '+1 234 567 890'
+        description: '+254 7907 72286'
     },
     {
         icon: <FaEnvelope />,
         title: 'Email',
-        description: 'example@gmail.com'
+        description: 'robinsonmwaura254@gmail.com'
     },
     {
         icon: <FaMapMarkerAlt />,
         title: 'Address',
-        description: '123 Street, City, Country'
+        description: 'Nairobi, Kenya'
     }
 ]
 
@@ -45,7 +45,7 @@ const Contact = () => {
                     <div className="xl:w-[54%] order-2 xl:order-none">
                         <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
                             <h3 className="text-4xl text-accent">Lets work together</h3>
-                            <p className="text-white/60">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
+                            <p className="text-white/60">Connect with Mwaura, a passionate Software Developer, for innovative  services and collaboration opportunities.</p>
 
                             {/* inputs */}
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -63,7 +63,6 @@ const Contact = () => {
                                     <SelectGroup >
                                         <SelectLabel>Select a service</SelectLabel>
                                         <SelectItem value="est">Web Development</SelectItem>
-                                        <SelectItem value="cst">Mobile Development</SelectItem>
                                         <SelectItem value="mst">UI/UX Design</SelectItem>
                                     </SelectGroup>
                                 </SelectContent>

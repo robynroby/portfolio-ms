@@ -47,49 +47,49 @@ const experience = {
     description: "I have experience in building websites and web applications using modern technologies.",
     items: [
         {
-            position: "Web Developer",
-            company: "Company",
-            duration: "2021 - Present",
-            description: "I build websites and web applications that are fast, secure, and easy to manage."
+            position: "FRONT-END DEVELOPER",
+            company: "Portable Car Engineering Environment(PCEE)",
+            duration: "APR 2023-DEC 2023",
+            description: "Translated designs and wire frames into high quality code and writing application interface with ReactJs.Troubleshot interface and debugged applications codes to improve functionality and performance by 50%. Tested and optimized react components for best performance across every device and browser."
         },
         {
-            position: "Mobile Developer",
-            company: "Company",
+            position: "FRONT-END DEVELOPER",
+            company: "Abeona",
             duration: "2020 - 2021",
-            description: "I build mobile applications that are fast, secure, and easy to manage."
+            description: "Developed and maintained the front end of the company's website using ReactJS. Worked closely with the design team to implement new features and improve the user experience. Optimized the website for performance and SEO."
         },
         {
-            position: "UI/UX Designer",
-            company: "Company",
-            duration: "2019 - 2020",
-            description: "I design user interfaces that are easy to use and visually appealing."
+            position: "FRONT-END DEVELOPER",
+            company: "HNG INTERNSHIP PROGRAM",
+            duration:"Nov 2022 - Jan 2023",
+            description: "I used my extensive experience with front end development to define the structure and components for the project, making sure they are reusable.Keep the code quality high reviewing code from other developers and suggesting improvements. Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality."
         }
 
     ]
 }
 
 const education = {
-    icon: '/resume/cap.svg',
-    title: "My Education",
-    description: "I have a degree in Computer Science and have taken courses in web development and design.",
-    items: [
+    "icon": "/resume/cap.svg",
+    "title": "My Education",
+    "description": "I hold a degree in Computer Science, with specialized coursework in web development and UI/UX design.",
+    "items": [
         {
-            degree: "Computer Science",
-            institution: "University",
-            duration: "2016 - 2020",
-            description: "I studied computer science and took courses in web development and design."
+            "degree": "Bachelor of Computer Science",
+            "institution": "Dedan Kimathi University of Technology",
+            "duration": "2019 - 2024",
+            "description": "Gained comprehensive knowledge in computer science, with a focus on web development and UI/UX design."
         },
         {
-            degree: "Web Development",
-            institution: "Online",
-            duration: "2020 - 2021",
-            description: "I took courses in web development to learn modern technologies."
+            "degree": "Web Development Certification",
+            "institution": "Various Online Platforms",
+            "duration": "2020 - 2023",
+            "description": "Completed in-depth courses on modern web development technologies and frameworks."
         },
         {
-            degree: "UI/UX Design",
-            institution: "Online",
-            duration: "2021 - 2022",
-            description: "I took courses in UI/UX design to learn how to design user interfaces."
+            "degree": "UI/UX Design Certification",
+            "institution": "Various Online Platforms",
+            "duration": "2021 - 2023",
+            "description": "Studied the principles and practices of user interface and user experience design."
         },
 
     ]
