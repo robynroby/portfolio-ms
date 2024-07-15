@@ -13,22 +13,16 @@ const services = [
         icon: "web-development",
         href: "/services/web-development"
     },
+    
     {
         num: '02',
-        title: "Mobile Development",
-        description: "We build mobile applications that are fast, secure, and easy to manage.",
-        icon: "mobile-development",
-        href: "/services/mobile-development"
-    },
-    {
-        num: '03',
         title: "UI/UX Design",
         description: "We design user interfaces that are easy to use and visually appealing.",
         icon: "ui-ux-design",
         href: "/services/ui-ux-design"
     },
     {
-        num: '04',
+        num: '03',
         title: "SEO",
         description: "We optimize websites for search engines to increase visibility and traffic.",
         icon: "seo",
