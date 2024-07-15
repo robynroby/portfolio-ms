@@ -55,7 +55,7 @@ const Contact = () => {
                                 <Input type="phone" placeholder="Phone Number" name="phonenumber" />
                             </div>
                             {/* select */}
-                            <Select>
+                            <Select name="contacttype">
                                 <SelectTrigger className="w-full">
                                     <SelectValue placeholder="Select a service" />
                                 </SelectTrigger>
