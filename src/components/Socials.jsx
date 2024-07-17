@@ -11,7 +11,7 @@ const socials = [
         icon: <FaLinkedin />,
     },
     {
-        path: "https://twitter.com/__Mwaura",
+        path: "https://twitter.com/___Mwaura",
         icon: <FaTwitter />,
     },
 ]
