@@ -49,7 +49,7 @@ const Contact = () => {
 
                             {/* inputs */}
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                <Input type="firstname" placeholder="Firstname" name="firstname"/>
+                                <Input type="firstname" placeholder="Firstname" name="firstname" />
                                 <Input type="lastname" placeholder="Lastname" name="lastname" />
                                 <Input type="email" placeholder="Email" name="email" />
                                 <Input type="phone" placeholder="Phone Number" name="phonenumber" />

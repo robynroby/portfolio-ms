@@ -1,11 +1,11 @@
 "use client"
 
-import { FaCss3, FaFigma, FaGlobeAfrica, FaHtml5, FaJs, FaNodeJs, FaPython, FaReact } from "react-icons/fa"
+import { FaCss3, FaFigma, FaGlobeAfrica, FaHtml5, FaJs, FaNodeJs, FaPython, FaReact, FaAccusoft } from "react-icons/fa"
 import { SiMongodb, SiNextdotjs, SiTailwindcss } from "react-icons/si"
 
+import { ScrollArea } from "@/components/ui/scroll-area"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
-import { ScrollArea } from "@/components/ui/scroll-area"
 import { motion } from "framer-motion"
 
 const about = {
@@ -20,7 +20,7 @@ const about = {
             fieldName: "Phone",
             fieldValue: " +254 790 772 286"
         },
-        
+
         {
             fieldName: "Location",
             fieldValue: "Nairobi, Kenya"
@@ -29,7 +29,7 @@ const about = {
             fieldName: "Languages",
             fieldValue: "English, Swahili"
         },
-        
+
         {
             fieldName: "Freelance",
             fieldValue: "Available"
@@ -55,13 +55,13 @@ const experience = {
         {
             position: "FRONT-END DEVELOPER",
             company: "Abeona",
-            duration: "2020 - 2021",
+            duration: "OCT 2023-JAN 2024",
             description: "Developed and maintained the front end of the company's website using ReactJS. Worked closely with the design team to implement new features and improve the user experience. Optimized the website for performance and SEO."
         },
         {
             position: "FRONT-END DEVELOPER",
             company: "HNG INTERNSHIP PROGRAM",
-            duration:"Nov 2022 - Jan 2023",
+            duration: "Nov 2022 - Jan 2023",
             description: "I used my extensive experience with front end development to define the structure and components for the project, making sure they are reusable.Keep the code quality high reviewing code from other developers and suggesting improvements. Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality."
         }
 
@@ -73,6 +73,12 @@ const education = {
     "title": "My Education",
     "description": "I hold a degree in Computer Science, with specialized coursework in web development and UI/UX design.",
     "items": [
+        {
+            "degree": "Kenya Certificate of Secondary Education",
+            "institution": "Kihara Secondary School",
+            "duration": "2015 - 2018",
+            "description": "Gained comprehensive knowledge in computer science, with a focus on web development and UI/UX design."
+        },
         {
             "degree": "Bachelor of Computer Science",
             "institution": "Dedan Kimathi University of Technology",
@@ -143,6 +149,10 @@ const skills = {
             name: "Python",
             icon: <FaPython />
         },
+        {
+            name: "PostgreSQL",
+            icon: <FaAccusoft />
+        }
     ]
 }
 
