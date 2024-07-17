@@ -10,7 +10,6 @@ const services = [
         num: '01',
         title: "Web Development",
         description: "We build websites and web applications that are fast, secure, and easy to manage.",
-        icon: "web-development",
         href: "/services/web-development"
     },
     
@@ -18,16 +17,20 @@ const services = [
         num: '02',
         title: "UI/UX Design",
         description: "We design user interfaces that are easy to use and visually appealing.",
-        icon: "ui-ux-design",
         href: "/services/ui-ux-design"
     },
     {
         num: '03',
         title: "SEO",
         description: "We optimize websites for search engines to increase visibility and traffic.",
-        icon: "seo",
         href: "/services/seo"
     },
+    {
+        num: '04',
+        title: "Software Development",
+        description: "We build custom software solutions that are tailored to your needs.",
+        href: "/services/software-development"
+    }
 ]
 
 const Services = () => {

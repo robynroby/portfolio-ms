@@ -10,7 +10,7 @@ const Home = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a')
-    link.href = '/robinsonmwauraCv.pdf'
+    link.href = '/Robinson_Mwaura_CV.pdf'
     link.download = 'Robinson_Mwaura_CV.pdf'
     document.body.appendChild(link);
     link.click();
